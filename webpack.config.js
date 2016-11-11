@@ -11,6 +11,9 @@ module.exports = {
         path: __dirname + '/public',
         filename: 'bundle.js'
     },
+    resolve: {
+        roote:path.resolve('./src')
+    },
 
     //ES6 문법과 JSX문법을 사용한다.
     module: {
