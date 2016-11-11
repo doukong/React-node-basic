@@ -15,6 +15,9 @@ module.exports = {
         path: '/',
         filename: 'bundle.js'
     },
+    resolve: {
+        roote:path.resolve('./src')
+    },
 
     devServer: {
         hot: true,
