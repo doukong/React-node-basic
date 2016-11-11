@@ -24,6 +24,16 @@ module.exports = {
         contentBase: './public',
         proxy: {
             "**": "http://localhost:3000"
+        },
+        stats: {
+            //console log 최소화
+            assets : false,
+            colors: true,
+            version :false,
+            hash : false,
+            timings: false,
+            chunks: false,
+            chunkModules: false
         }
     },
 
